@@ -1,0 +1,62 @@
+body{
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 200, 0.7)), url(https://i.postimg.cc/x8PhQ3Vy/image-2024-08-12-134211867.png);
+    color: white;
+    font-family: arial;
+  }
+  
+  .title{
+    text-align: center;
+    font-size:50px;
+  }
+  
+  .subtitle{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  label {
+      display: flex;
+      margin-bottom: 0.5rem;
+      margin-top: 1.5rem;
+  }
+  
+  .space{
+        padding:5px ;
+        width: 100%;
+        font-size:15px;
+  }
+  
+  .form{
+    margin: 0.4rem; 
+  }
+  
+  .surveyform{
+    padding: 40px;
+    margin: 40px;
+    background-color: rgba(27, 27, 50, 0.4);
+  }
+  
+  .spaceform{
+        padding:5px ;
+        width: 30%;
+        font-size:15px;
+  }
+  
+  .textarea{
+        display: flex;
+        width: 100%;
+        height: 180px;
+  }
+  
+  .submit{
+       display: block;
+       width: 100%;  
+       background: white;
+       color: black;
+       margin-top:40px;
+       height:30px;
+  }
+  
+  .footer{
+       text-align: center;
+  }

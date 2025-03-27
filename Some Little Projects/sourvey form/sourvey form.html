@@ -1,0 +1,172 @@
+<DOCTYPE html>
+    <head>
+      <meta charset="UTF-8">
+      <title>titulo</title>
+      <link rel="stylesheet" href="styles.css"></>
+    </head>
+    <body>
+      <h1 class="title" id="title"><strong>Survey Form</strong></h1>
+      <p class="subtitle" id="description">Thank you for taking the time to fill out the survey.</p>
+      <form id="survey-form">
+        <fieldset class="surveyform">
+          <div>
+            <label 
+                class="label" id="name-label" for="name">Enter your first name:</label>
+            <input 
+                   class="space" 
+                   id="name" 
+                   name="name" 
+                   type="text" 
+                   required 
+                   placeholder="Enter your name"/>
+          </div>
+          <div>
+            <label class="label" id="email-label">Enter your email:</label>
+            <input
+                   class="space" 
+                   id="email" 
+                   name="email" 
+                   type="email" 
+                   required 
+                   placeholder="Enter your email" />
+          </div>
+          <div>
+            <label class="label" id="number-label">Age:</label>
+              <input  
+                   class="space" 
+                   type="number" 
+                   id="number" 
+                   name="number" 
+                   min="12" 
+                   max="120" 
+                   placeholder="Enter your number  " />
+           </div>
+          
+           <div>
+            <label  class="label" id="number-label">Number:</label>
+            <input  
+                   class="space" 
+                   type="number" 
+                   id="number" 
+                   name="number" 
+                   min="12" 
+                   max="120" 
+                   placeholder="Enter your number  "/>
+          </div>
+          <div>  
+            <label  class="label" id="recomended-label">Would you recommend our page to a friend?:</label>
+            <label class=form>
+              <input 
+                   type="radio" 
+                   name="Definitely" 
+                   value="radio1"/>Definitely</label>
+            
+            <label class="form">
+              <input 
+                   type="radio" 
+                   name="Maybe" 
+                   value="radio2"/>Maybe</label>
+            
+            <label class="form">
+              <input 
+                   type="radio" 
+                   name="radio" 
+                   value="radio"/>Not sure</label>
+            
+            <label class="form">
+              <input 
+                   type="radio" 
+                   name="radio" 
+                   value="radio"/>No</label>
+          </div>
+          
+          
+          <label class="label" id="option-label">What are your favorite mobile applications?</label>
+      
+            <label
+              ><input
+                name="Facebook"
+                value="front-end-projects"
+                type="checkbox"
+                class="input-checkbox"
+              />Facebook</label
+            >
+            <label>
+              <input
+                name="Twiter"
+                value="back-end-projects"
+                type="checkbox"
+                class="input-checkbox"
+              />Twiter
+          </label
+            >
+            <label
+              ><input
+                name="Instagram"
+                value="data-visualization"
+                type="checkbox"
+                class="input-checkbox"
+              />Instagram</label
+            >
+            <label
+              ><input
+                name="Tik-Tok"
+                value="challenges"
+                type="checkbox"
+                class="input-checkbox"
+              />Tik Tok</label
+            >
+            <label
+              ><input
+                name="You-Tube"
+                value="You-Tube"
+                type="checkbox"
+                class="input-checkbox"
+              />You Tube</label
+            >
+            <label
+              ><input
+                name="Discord"
+                value="gitter-help-rooms"
+                type="checkbox"
+                class="input-checkbox"
+              />Discord</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="WhatsApp"
+                type="checkbox"
+                class="input-checkbox"
+              />WhatsApp</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Spotify"
+                type="checkbox"
+                class="input-checkbox"
+              />Spotify</label
+            >
+          </div>
+          
+        <label  class="label" id="how-label">How did you find out about the page?</label>
+          <select id="dropdown" class="spaceform"> 
+            <div><option value="1">Social networks</option></div>
+            <div><option value="2">Recommendation from a friend</option></div>
+            <div><option value="3">Advertisements</option></div>   
+            <div><option value="3">Other</option></div>       
+          </select>
+  
+        <label class="label" id="what-label">Any comments or suggestions?</label>
+          <textarea placeholder="Enter your coment here..." class="textarea"></textarea>
+          <a></a>
+        
+          <input id="submit"class="submit" type="submit"/>
+         
+        </fieldset>
+      </form>  
+    </body>
+   <footer class="footer">2024 My survey form. All rights reserved</footer>
+  </html>
+  
